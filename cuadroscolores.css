@@ -1,0 +1,21 @@
+.forma{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+div{background-color: blue;
+    border: 10px solid grey;
+width: 25%;
+height: 200px;
+margin-top: 50px;
+cursor: pointer;
+}
+.coloruno{background-color:yellow;
+}
+
+
+.colordos{background-color: red;
+}
+.colortres{background-color: green;
+}

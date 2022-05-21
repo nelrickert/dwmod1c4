@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros de colores Js</title>
+    <link rel="stylesheet" href="cuadroscolores.css">
+</head>
+
+<body>
+    <main class="forma">
+        <div class="coloruno" onclick="cambiarFondo('yellow')"></div>
+        <div class="colordos" onclick="cambiarFondo('red')"></div>
+        <div class="colortres" onclick="cambiarFondo('green')"></div>
+    </main>
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+
+
+    </script>
+</body>
+
+</html>
